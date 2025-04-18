@@ -1,0 +1,138 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background: linear-gradient(#ffffff,#b34ef6);
+  min-height: 100vh;
+}
+
+/* Styles pour le header */
+header {
+  display: flex;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+
+}
+
+ #loader h1 img
+{
+height:50px;
+margin-right: 80px;
+margin-left: 30px;
+float: left;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f7b733;
+}
+
+h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+h1 a:hover {
+  color: #f7b733;
+}
+/* image du logo qui est un lien*/
+
+ 
+/* Styles pour le main */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 380px;
+  background: url(image/image.png) no-repeat center center fixed;
+  background-size: cover; /* ajuste la taille de l'image pour 
+                              remplir tout l'écran */
+   /* centre l'image horizonta*/
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color:whitesmoke;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: whitesmoke;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: #f7b733;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #222;
+}
+
+
+footer {
+  background-color: #333;
+  height: 20px;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+.videoanime {
+  width:100% ; /* spécifiez une largeur pour votre div */
+  height: 1000px; /* spécifiez une hauteur pour votre div */
+  background: url(image/video.gif) no-repeat center center fixed;
+  background-size: cover;
+  display: flex; /* utilisez flexbox pour centrer l'image dans le div */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+/*.videoanime img {*/
+/*  width: 100%; /* faites en sorte que l'image s'adapte à la taille du conteneur */*/
+/*  height: 100%;*/
+/*  background: no-repeat center center fixed;*/
+/*}*/
+
+/* Styles pour le footer */
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscription</title>
+  <link rel="icon" type="image/ico" href="image/im.ico">
+  <link rel="stylesheet" href="inscription.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Inscription</h1>
+    <form>
+      <div class="form-group">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+      <div class="form-group">
+        <label for="prenom">prenom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="password"> confirmation mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn">S'inscrire</button>
+    </form>
+    <div class="oauth">
+      <p>Ou s'inscrire avec :</p>
+      <button id="google-btn" class="oauth-btn"><img src="image/logog.jpg" alt="Google" /></button>
+      <button id="facebook-btn" class="oauth-btn"><img src="image/logofb.png" alt="Facebook" /></button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
